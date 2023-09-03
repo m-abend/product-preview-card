@@ -1,0 +1,116 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+  }
+  body {
+    background-color: hsl(30, 38%, 92%);
+    padding: 200px;
+  }
+
+  @font-face {
+    font-family: "fraunces";
+    src: url("/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+  }
+
+  @font-face {
+    font-family: "montserrat";
+    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+  }
+
+  .offer {
+    display: flex;
+    width:100%;
+}
+
+  .parfume-box {
+    width:600px;
+    height:420px;
+    display: flex;
+    margin:auto;
+    background-color:  hsl(0, 0%, 100%);
+   
+}
+
+  .parfume-image-box {
+    width:300px;
+    height:420px;
+  }
+
+  .parfume-image-box {
+    background-image: url("/images/image-product-desktop.jpg");
+    background-size: 300px 420px;
+    width:300px;
+    height:420px;
+}
+
+.parfume-box-img {
+    width: 300px;
+    height:420px;
+}
+
+  .parfume-desc-box {
+    width: 300px;
+    height:450px;
+    padding: 20px;
+  }
+
+  .parfume-desc-box-text {
+    width: 300px;
+    height: 420px;
+  }
+
+  .product-category {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "montserrat";
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
+  .product-title {
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
+  }
+
+  .product-description {
+    color:hsl(228, 12%, 48%);
+    font-family: "montserrat";
+    margin-top:20px;
+    font-size: 15px;
+  }
+
+  .price-new {
+    font-size:30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+  }
+
+  .product-price {
+    margin-top:20px;
+  }
+
+  .price-old {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-left:20px;
+  }
+
+  .add-product {
+    width:250px;
+    height: 40px;
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 8px;
+    margin-top:20px;
+    text-align: center;
+    position:relative;
+  }
+
+  .card-icon  {
+    position:absolute;
+    top:11px;
+    left: 28%;
+  }
