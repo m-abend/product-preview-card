@@ -73,16 +73,21 @@ body {
     font-size:30px;
     color: hsl(158, 36%, 37%);
     font-weight: bold;
+    display: inline-block;
   }
 
   .product-price {
     margin-top:15px;
+    position: relative;
   }
 
   .price-old {
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
-   
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 110px;
   }
 
   .add-product {
@@ -98,9 +103,7 @@ body {
   }
 
   .card-icon  {
-    
     position:absolute;
     top:11px;
     left:30%;
-    
   }
