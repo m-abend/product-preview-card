@@ -10,12 +10,12 @@ body {
 
 @font-face {
     font-family: "fraunces";
-    src: url("/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    src: url("../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
   }
 
   @font-face {
     font-family: "montserrat";
-    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
   }
 
 
@@ -32,7 +32,7 @@ body {
 
 .parfume-image-box {
     height:230px;
-    background: url("/images/image-product-mobile.jpg") no-repeat;
+    background: url("../images/image-product-mobile.jpg") no-repeat;
     background-size: cover;
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
