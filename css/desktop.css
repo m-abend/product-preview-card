@@ -9,12 +9,12 @@
 
   @font-face {
     font-family: "fraunces";
-    src: url("/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    src: url("../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
   }
 
   @font-face {
     font-family: "montserrat";
-    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
   }
 
   .offer {
@@ -37,7 +37,7 @@
   }
 
   .parfume-image-box {
-    background-image: url("/images/image-product-desktop.jpg");
+    background-image: url("../images/image-product-desktop.jpg");
     background-size: 300px 420px;
     width:300px;
     height:420px;
